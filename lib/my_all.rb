@@ -10,6 +10,9 @@ def my_all?(collection)
     end
 
     if block_return_values.include?(false)
+      return false
+    else
+      true
   else
     puts "Sorry, no block given."
   end
