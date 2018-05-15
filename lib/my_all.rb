@@ -13,6 +13,7 @@ def my_all?(collection)
       return false
     else
       true
+    end
   else
     puts "Sorry, no block given."
   end
